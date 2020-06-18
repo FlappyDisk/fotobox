@@ -5,9 +5,9 @@ fotoboxCfg['window-height']   = 1024
 
 # Depending on the camera used previews might got smaller than set here
 fotoboxCfg['cam-p-width']     = 960
-fotoboxCfg['cam-p-height']    = 720
+fotoboxCfg['cam-p-height']    = 800
 fotoboxCfg['cam-p-x']         = 9
-fotoboxCfg['cam-p-y']         = 261
+fotoboxCfg['cam-p-y']         = 195
 fotoboxCfg['cam-p-hflip']     = True # False = Like a camera, True = Like a mirror
 
 # PiCam v1: 2592x1944, v2: 3280x2464
@@ -24,7 +24,7 @@ fotoboxCfg['countdown']       = 3 # Seconds
 
 fotoboxText = {}
 
-fotoboxText['info-home']    = 'Hallo und willkommen in der Fotobox!<br>Drücke einfach auf &quot;Aufnahme&quot; und los geht es!'
+fotoboxText['info-home']    = 'Hallo und willkommen in Hannahs Fotobox!<br>Drücke einfach auf &quot;Aufnahme&quot; und los geht es!'
 fotoboxText['info-count']   = 'Los geht es!<hr><span style="font-size: 200%; font-weight: bolder;">${countdown}</span>'
 fotoboxText['info-capture'] = '<span style="font-size: 200%; font-weight: bolder;">Bitte lächeln!</span>'
 fotoboxText['info-review']  = 'Alles OK?<br>Wenn ja drücke auf "Speichern". Doch zu blöd geguckt? Dann versuch es gleich nochmal.'
